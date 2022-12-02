@@ -38,8 +38,9 @@
         </plugins>
     </build>
 ```
-5. Testen runnen met:
+5. Testen runnen in een terminal in Intelij met:
 ```
 mvn test
 ```
 6. testng-results.xml (in target/surefire-reports) klaar maken voor XRay met het script PrepareFileForXRay.ps1
+        I. Veranderd de input location van het script naar de locatie waar je testng-results.xml staat
