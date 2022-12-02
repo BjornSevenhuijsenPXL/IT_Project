@@ -1,8 +1,8 @@
 ﻿#Created by Björn Sevenhuijsen
 #----------------------------------------------
 #Change these file paths
-$inputLocation='C:\Users\mrmuc\Downloads\testng-results.xml'
-$outputLocation='C:\Users\mrmuc\Downloads\testResultsXRay.xml'
+$inputLocation='C:\Users\' + $env:UserName + '\Downloads\testng-results.xml'
+$outputLocation='C:\Users\' + $env:UserName + '\Downloads\testResultsXRay.xml'
 
 $xml=[xml](Get-Content $inputLocation)
 
